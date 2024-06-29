@@ -1,10 +1,8 @@
 # AnyBox
 
-（开发中）still under programming
+跨平台工具集,持续开发中! 测试程序获得：output/*
 
-测试程序：output/*
-
-# 0x00 (编译环境准备)Preparation of Compilation Environment
+## 0x00 编译环境准备
 
 ```shell
 go env -w GOPROXY=https://proxy.golang.com.cn,direct
@@ -24,12 +22,12 @@ make
 
 ```
 
-## 0x01（工具清单）List
+## 0x01 工具清单
 
 | Name     | Description     | Target     |
 | -------- | -------- | -------- |
-| pudu | collecting data for IR | windows/linux |
-| jihe | analyzing the clt data | linux |
+| pudu | Windows及Linux平台失陷主机上的信息收集、打包、搜集 | windows/linux |
+| jihe | 主机端上常见的攻击痕迹场景的分析 | linux |
 
 ## 0x02 pudu-普渡
 
