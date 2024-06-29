@@ -134,7 +134,7 @@ function main {
             exit 1
             ;;
     esac
-    cp ${BASE_DIR}/web ${BUILD_DIR}/ -r
+    #cp ${BASE_DIR}/web ${BUILD_DIR}/ -r
 }
 
 main $1
