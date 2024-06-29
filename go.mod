@@ -3,8 +3,8 @@ module AnyBox
 go 1.22.4
 
 require (
-	github.com/aplyc1a/gair-framework v0.0.0-20240629043222-b6f807c2ae97
-	github.com/aplyc1a/utils v0.0.0-20240628170922-238defa394b8
+	github.com/aplyc1a/gair-framework v0.0.0-20240629154704-17941c42ac53
+	github.com/aplyc1a/utils v0.0.0-20240629154445-01d6284cea14
 	github.com/gin-gonic/gin v1.10.0
 )
 
