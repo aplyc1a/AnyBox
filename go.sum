@@ -8,12 +8,8 @@ github.com/0xrawsec/golang-utils v1.3.0/go.mod h1:DADTtCFY10qXjWmUVhhJqQIZdSweaH
 github.com/0xrawsec/golang-win32 v1.0.6/go.mod h1:MAxVU7dr8lujwknuhf4TwjYm8tVEELi2zwx1zDTu/RM=
 github.com/BurntSushi/toml v1.3.2 h1:o7IhLm0Msx3BaB+n3Ag7L8EVlByGnpq14C4YWiu/gL8=
 github.com/BurntSushi/toml v1.3.2/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
-github.com/aplyc1a/gair-framework v0.0.0-20240629043222-b6f807c2ae97 h1:WH/hF0wUnbIuFXkoBBvJYyMP7v9SUWJWBkkeK8qAI8Q=
-github.com/aplyc1a/gair-framework v0.0.0-20240629043222-b6f807c2ae97/go.mod h1:aoH6gYEG22oKFH7lW+Lvyq0sYzT8JfWHHTAvlWSyno0=
 github.com/aplyc1a/gair-framework v0.0.0-20240629154704-17941c42ac53 h1:rj06gkh10kZ1BFUrkQJuWiODaW4cMnRRNlpzxZrI02M=
 github.com/aplyc1a/gair-framework v0.0.0-20240629154704-17941c42ac53/go.mod h1:RAstU2UvgXPkHdZLHpmcp3VzKdbatk//fclZYn6VnSM=
-github.com/aplyc1a/utils v0.0.0-20240628170922-238defa394b8 h1:khZ/wddfifawZBT6xQ7g1ublxl3qh1cE/rP4D8NO46Y=
-github.com/aplyc1a/utils v0.0.0-20240628170922-238defa394b8/go.mod h1:5URP1T5JRI8pgebLRJfiRAcDgLUJ+zdipIC1Vuax88E=
 github.com/aplyc1a/utils v0.0.0-20240629154445-01d6284cea14 h1:PGKp73N7MBuN0DX67tR4iAFyt/uyt4j1IjugJ8zVG2k=
 github.com/aplyc1a/utils v0.0.0-20240629154445-01d6284cea14/go.mod h1:5URP1T5JRI8pgebLRJfiRAcDgLUJ+zdipIC1Vuax88E=
 github.com/bytedance/sonic v1.11.6 h1:oUp34TzMlL+OY1OUWxHqsdkgC/Zfc85zGqw9siXjrc0=
@@ -131,8 +127,8 @@ golang.org/x/sys v0.0.0-20190916202348-b4ddaad3f8a3/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.5.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
-golang.org/x/sys v0.20.0 h1:Od9JTbYCk261bKm4M/mw7AklTlFYIa0bIp9BgSm1S8Y=
-golang.org/x/sys v0.20.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
+golang.org/x/sys v0.21.0 h1:rF+pYz3DAGSQAxAu1CbC7catZg4ebC4UIeIhKxBZvws=
+golang.org/x/sys v0.21.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
 golang.org/x/text v0.16.0 h1:a94ExnEXNtEwYLGJSIUxnWoxoRz/ZcCsV63ROupILh4=

@@ -19,10 +19,11 @@ import (
 )
 
 var (
-	Fast     bool
-	All      bool
-	Pack     bool
-	PackOnly bool
+	Fast      bool
+	All       bool
+	NoStatMap bool
+	Pack      bool
+	PackOnly  bool
 
 	IsCustom             bool
 	Cachedb              bool
@@ -85,6 +86,9 @@ func init() {
 	flag.StringVar(&CustomIgnoredTargets, "ign", "", "")
 
 	// --statmap
+	flag.BoolVar(&NoStatMap, "NoStatmap", false, "")
+	flag.BoolVar(&NoStatMap, "nostatmap", false, "")
+	flag.BoolVar(&NoStatMap, "nostat", false, "")
 	flag.BoolVar(&Filemap, "statmap", false, "")
 
 	// hash
@@ -139,6 +143,7 @@ func init() {
 			usage string
 		}{
 			{"--fast", "Do Fast collecting.(default:normal mode)."},
+			{"--all", "Do the complete collecting.(default:normal mode)."},
 			{"--all", "Do the complete collecting.(default:normal mode)."},
 			{"--pack", "Pack the data after collecting.(Also:-p/--packing/--packaging)."},
 			{"--packonly", "Just pack the collecting data.(Also:-po/--packingonly/--packagingonly)."},
@@ -278,7 +283,7 @@ func run() {
 				target = append(target, CustomTarget)
 			}
 
-			if Filemap {
+			if Filemap && !NoStatMap {
 				IsCustom = true
 				HASHES := crypto.SHA256_BITS
 				log.Info(config.Translate("WorkingOn", map[string]interface{}{"Item": "DrawStatMapX"}))
